@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#product{
+	 margin:10px 0;
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+
+.container a{
+	text-decoration:none;
+	color:black;
+}
+ .row{
+	display:flex;
+	flex-wrap:wrap;
+	box-shadow: 2px 2px 15px #00000063;
+	padding:20px 0;
+}
+
+ .col2{
+	 width:16.66%;
+	 padding:0 15px;
+ }
+ 
+ .col4{
+	 width:33.32%;
+	 padding:0 15px;
+ }
+ 
+  .col8{
+	 width:66.64%;
+	 padding:0 15px;
+ }
+ 
+ .card_content{
+	 margin:20px 0;
+	 line-height:1.6;
+ }
+ 
+  .card_content h2:hover{
+	  color:blue;
+  }
